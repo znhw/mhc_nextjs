@@ -1,0 +1,101 @@
+.nav {
+    /* width: 100%; */
+    position: relative;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.homeIcon {
+    font-size: 30px;
+    color: #02274f;
+    right: 20px;
+
+}
+
+.navItems {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.navItems a{
+    text-decoration: none;
+}
+
+.socials {
+    right: 10px;
+    position: absolute;
+    padding-right: 10px;
+}
+
+.socials a {
+    padding: 10px;
+    font-size: 20px;
+    color: #02274f;
+}
+
+.navTop {
+    font-size: 12px;
+    background-color: white;
+    border-radius: 20px;
+    width: 100px;
+}
+  /* CSS */
+.navTop {
+    background-color: #fff;
+    border: 2px solid #2d2c2c;
+    border-radius: 10px;
+    box-shadow: #2d2c2c 4px -4px 0px 0px;
+    color: #393737;
+    font-weight: 600;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    padding: 8px 20px;
+}
+   
+.navTop:hover {
+    background-color: #f2faff;
+    color: #191919;
+}
+   
+.navTop:active {
+    box-shadow: #422800 2px -2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+.subNav {
+    padding-top: 15px;
+    padding-left: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 0;
+}
+
+.subNav a {
+    color: #02274f;
+}
+
+.subNav a:hover {
+    color: white;
+}
+
+.subNavItems {
+    background-color: #fff;
+    border: #2d2c2c 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.subNavItems:hover {
+    background-color: #8ebeee;
+}
+
+@media screen and (max-width: 690px){
+    .navItems {
+     padding-left: 0;
+     margin-top: 20px;
+    }
+}
