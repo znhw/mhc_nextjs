@@ -7,17 +7,17 @@ import matter from "gray-matter";
 import Head from "next/head";
 
 //Retrieve content with slug 
-const getLessonContent = (slug: string) => {
+// const getLessonContent = (slug: string) => {
 
-  const file = 'lessons/home.md'
-  const content =  fs.readFileSync(file,  'utf8')
-  const matterResult = matter(content)
-  return matterResult;
-}
+//   const file = 'lessons/home.md'
+//   const content =  fs.readFileSync(file,  'utf8')
+//   const matterResult = matter(content)
+//   return matterResult;
+// }
 
 export default function Home(props: any) {
-  const slug = props.params.slug
-  const lesson = getLessonContent(slug)
+  // const slug = props.params.slug
+  // const lesson = getLessonContent(slug)
 
   return (
     
