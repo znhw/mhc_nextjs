@@ -5,6 +5,7 @@ import Markdown from "markdown-to-jsx";
 import matter from "gray-matter";
 import getPostMetadata from "../../../../fetch/getPostMetadataF2";
 import Script from "next/script";
+import path from "path";
 
 //Retrieve content with slug 
 const getLessonContent = (slug: string) => {
