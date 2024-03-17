@@ -17,7 +17,7 @@ export default function Nav() {
                 return <SubMenu item={item} key={index} />
             })}
 
-            <div className={styles.socials}>
+            {/* <div className={styles.socials}>
                 <a href='https://discord.gg/gnMFt3uHC8' >
                     <FontAwesomeIcon icon={faDiscord} width={20}/>
                 </a>
@@ -30,7 +30,7 @@ export default function Nav() {
                 <a href='https://www.youtube.com/@mathheroclub' >
                     <FontAwesomeIcon icon={faYoutube} width={20} />
                 </a>
-            </div>
+            </div> */}
         </nav>
     )
 }

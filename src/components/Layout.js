@@ -11,7 +11,7 @@ export default function Layout({children}) {
             <div className={styles.layout}>
                 {children}
             </div>
-            <Footer />
+            {/* <Footer /> */}
 
 
         </div>
