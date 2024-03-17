@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "Form 2 Mathematics"
 }
 
+
 const Home = () => {
   const postMetadata = getPostMetadata()
   const postPreviews = postMetadata.map((lesson) => (

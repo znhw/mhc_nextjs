@@ -5,12 +5,11 @@ import Markdown from "markdown-to-jsx";
 import matter from "gray-matter";
 import getPostMetadata from "../../../../fetch/getPostMetadataF2";
 import Script from "next/script";
-import { Metadata, ResolvingMetadata } from "next";
 
 //Retrieve content with slug 
 const getLessonContent = (slug: string) => {
 
-  const folder = './lessons/math-form-2/'
+  const folder = 'lessons/math-form-2/'
   const file = `${folder}${slug}.md`
   const content =  fs.readFileSync(file,  'utf8')
   const matterResult = matter(content)
@@ -30,8 +29,10 @@ export async function generateMetadata({ params }) {
     title: lesson.data.title
   }
 }
-const LessonPage = (props: any) => {
 
+
+const LessonPage = (props: any) => {
+  
   const slug = props.params.slug
   const lesson = getLessonContent(slug)
     return (
@@ -44,7 +45,7 @@ const LessonPage = (props: any) => {
               <h1 className={styles.lessonTitle}>{lesson.data.title}</h1>
             </div>
             <Markdown className={styles.markdown}>{lesson.content}</Markdown>
-          </Layout>
+         </Layout>
         </div>
       
       </>

@@ -27,7 +27,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/app/mathematics/form-2/[slug]/page.tsx"  ],
   "exclude": [
     "node_modules"
   ]
