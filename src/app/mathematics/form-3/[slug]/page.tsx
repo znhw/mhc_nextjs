@@ -9,7 +9,7 @@ import Script from "next/script";
 //Retrieve content with slug 
 const getLessonContent = (slug: string) => {
 
-  const folder = 'src/lessons/math-form-3/'
+  const folder = 'lessons/math-form-3/'
   const file = `${folder}${slug}.md`
   const content =  fs.readFileSync(file,  'utf8')
   const matterResult = matter(content)
