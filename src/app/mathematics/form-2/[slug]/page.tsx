@@ -10,7 +10,7 @@ import { Metadata, ResolvingMetadata } from "next";
 //Retrieve content with slug 
 const getLessonContent = (slug: string) => {
 
-  const folder = 'lessons/math-form-2/'
+  const folder = './lessons/math-form-2/'
   const file = `${folder}${slug}.md`
   const content =  fs.readFileSync(file,  'utf8')
   const matterResult = matter(content)
