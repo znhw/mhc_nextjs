@@ -9,7 +9,7 @@ import Head from "next/head";
 //Retrieve content with slug 
 const getLessonContent = (slug: string) => {
 
-  const folder = 'lessons/math-form-1/'
+  const folder = 'public/lessons/math-form-1/'
   const file = `${folder}${slug}.md`
   const content =  fs.readFileSync(file,  'utf8')
   const matterResult = matter(content)
