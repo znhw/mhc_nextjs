@@ -29,7 +29,7 @@
     "./lessons/**/*.md" 
   ]
   external_node_modules = []
-  node_bundler = "nft"
+  node_bundler = "esbuild"
 
   [functions.___netlify-odb-handler]
   node_bundler = "esbuild"
@@ -58,7 +58,7 @@
 
   ]
   external_node_modules = []
-  node_bundler = "nft"
+  node_bundler = "esbuild"
 
   [functions."_api_*"]
   node_bundler = "esbuild"
@@ -87,7 +87,7 @@
 
   ]
   external_node_modules = []
-  node_bundler = "nft"
+  node_bundler = "esbuild"
 
 [build]
 
@@ -291,7 +291,7 @@ status = 200
         "node_modules/styled-jsx/style.js"
       ]
       external_node_modules = []
-      node_bundler = "nft"
+      node_bundler = "esbuild"
 
       [context.production.functions."_api_*"]
       included_files = [
@@ -317,7 +317,7 @@ status = 200
         "node_modules/styled-jsx/style.js"
       ]
       external_node_modules = []
-      node_bundler = "nft"
+      node_bundler = "esbuild"
 
     [context.production.build]
 
@@ -332,7 +332,7 @@ status = 200
     [context.main.functions]
 
       [context.main.functions._ipx]
-      node_bundler = "nft"
+      node_bundler = "esbuild"
 
       [context.main.functions.___netlify-handler]
       included_files = [
@@ -358,7 +358,7 @@ status = 200
         "node_modules/styled-jsx/style.js"
       ]
       external_node_modules = []
-      node_bundler = "nft"
+      node_bundler = "esbuild"
 
       [context.main.functions.___netlify-odb-handler]
       included_files = [
@@ -384,7 +384,7 @@ status = 200
         "node_modules/styled-jsx/style.js"
       ]
       external_node_modules = []
-      node_bundler = "nft"
+      node_bundler = "esbuild"
 
       [context.main.functions."_api_*"]
       included_files = [
@@ -410,7 +410,7 @@ status = 200
         "node_modules/styled-jsx/style.js"
       ]
       external_node_modules = []
-      node_bundler = "nft"
+      node_bundler = "esbuild"
 
     [context.main.build]
 
