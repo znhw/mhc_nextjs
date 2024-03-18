@@ -3,13 +3,6 @@
   [functions._ipx]
   node_bundler = "nft"
 
-  directory = "lessons"
-  node_bundler = "esbuild"
-  included_files = [
-    "lessons/**/*.md"
-  ]
-  external_node_modules = ["html-minifier"]
-
   [functions.___netlify-handler]
   included_files = [
     ".env",
