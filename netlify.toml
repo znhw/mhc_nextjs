@@ -3,6 +3,13 @@
   [functions._ipx]
   node_bundler = "nft"
 
+  directory = "lessons"
+  node_bundler = "esbuild"
+  included_files = [
+    "lessons/**/*.md"
+  ]
+  external_node_modules = ["html-minifier"]
+
   [functions.___netlify-handler]
   included_files = [
     ".env",
@@ -25,7 +32,7 @@
     "!node_modules/next/dist/compiled/webpack/bundle4.js",
     "!node_modules/next/dist/compiled/webpack/bundle5.js",
     "node_modules/styled-jsx/style.js",
-    "lessons/**" 
+    "lessons/**/*.md" 
   ]
   external_node_modules = []
   node_bundler = "nft"
@@ -52,7 +59,7 @@
     "!node_modules/next/dist/compiled/webpack/bundle4.js",
     "!node_modules/next/dist/compiled/webpack/bundle5.js",
     "node_modules/styled-jsx/style.js",
-    "lessons/**" 
+    "lessons/**/*.md" 
 
   ]
   external_node_modules = []
@@ -80,7 +87,7 @@
     "!node_modules/next/dist/compiled/webpack/bundle4.js",
     "!node_modules/next/dist/compiled/webpack/bundle5.js",
     "node_modules/styled-jsx/style.js",
-    "lessons/**" 
+    "lessons/**/*.md" 
 
   ]
   external_node_modules = []
@@ -414,10 +421,5 @@ status = 200
       [context.main.build.environment]
       NEXT_PRIVATE_TARGET = "server"
 
-[functions]
-  directory = "lessons"
-  node_bundler = "esbuild"
-  included_files = [
-    "lessons/**/*.md"
-  ]
-  external_node_modules = ["html-minifier"]
+
+ 
