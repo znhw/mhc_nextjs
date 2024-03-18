@@ -1,7 +1,7 @@
 [functions]
 
   [functions._ipx]
-  node_bundler = "esbuild"
+  node_bundler = "esbuild"!
 
   [functions.___netlify-handler]
   included_files = [
@@ -25,10 +25,10 @@
     "!node_modules/next/dist/compiled/webpack/bundle4.js",
     "!node_modules/next/dist/compiled/webpack/bundle5.js",
     "node_modules/styled-jsx/style.js",
-    "./lessons/**/*.md" 
+    "./lessons/**/*.md" !
   ]
   external_node_modules = []
-  node_bundler = "esbuild"
+  node_bundler = "esbuild" !
 
   [functions.___netlify-odb-handler]
   included_files = [
@@ -52,11 +52,11 @@
     "!node_modules/next/dist/compiled/webpack/bundle4.js",
     "!node_modules/next/dist/compiled/webpack/bundle5.js",
     "node_modules/styled-jsx/style.js",
-    "./lessons/**/*.md" 
+    "./lessons/**/*.md" !
 
   ]
   external_node_modules = []
-  node_bundler = "esbuild"
+  node_bundler = "esbuild" !
 
   [functions."_api_*"]
   included_files = [
@@ -80,11 +80,11 @@
     "!node_modules/next/dist/compiled/webpack/bundle4.js",
     "!node_modules/next/dist/compiled/webpack/bundle5.js",
     "node_modules/styled-jsx/style.js",
-    "./lessons/**/*.md" 
+    "./lessons/**/*.md" !
 
   ]
   external_node_modules = []
-  node_bundler = "esbuild"
+  node_bundler = "esbuild" !
 
 [build]
 
