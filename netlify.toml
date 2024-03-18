@@ -4,7 +4,6 @@
   node_bundler = "nft"
 
   [functions.___netlify-handler]
-  node_bundler = "esbuild"
   included_files = [
     ".env",
     ".env.local",
@@ -32,7 +31,6 @@
   node_bundler = "esbuild"
 
   [functions.___netlify-odb-handler]
-  node_bundler = "esbuild"
   included_files = [
     ".env",
     ".env.local",
@@ -61,7 +59,6 @@
   node_bundler = "esbuild"
 
   [functions."_api_*"]
-  node_bundler = "esbuild"
   included_files = [
     ".env",
     ".env.local",
