@@ -1,7 +1,7 @@
 [functions]
 
   [functions._ipx]
-  node_bundler = "nft"
+  node_bundler = "esbuild"
 
   [functions.___netlify-handler]
   included_files = [
