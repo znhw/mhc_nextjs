@@ -1,5 +1,5 @@
 ---
-title: "Chapter 13: Simple Probability"
+title: "Chapter 13.1: Simple Probability"
 ---
 
 <style>
@@ -12,7 +12,7 @@ title: "Chapter 13: Simple Probability"
 
 <br><br>我们可以用Simple Probability的公式 formula：
 
-<br>$$P(event) = \frac{no. of (event)}{no. of (Sample Space)}$$
+<br>$$P(event) = \frac{no. of (event)}{total no. in (Sample Space)}$$
 
 <br>之前的可能性是 1/5 ，而现在却降低到 1/25
 
@@ -30,7 +30,7 @@ title: "Chapter 13: Simple Probability"
     <img src="/images/bandai-gashapon-machine.jpg" alt="Bandai Gashapon Machine" class="img" />(Figure 1: 扭蛋机)
 </p>
 <br><br>
-#### Example Questions:
+<u>### Example Questions:</u>
 <br>
 The gashapon machine has 5 capsule toys of different colours: 2 red, 2 blue, and 1 yellow.
 <br> 
@@ -46,7 +46,7 @@ $$B. S = \\{ red, red, blue, blue, yellow \\}$$
 
 扭蛋机虽然只有3种不同颜色的东西。。。
 <br>
-不过，看会Probability的公式，在提到Sample Space时，前面写了"number of"就是指**数量**。所以Sample Space必须包括每件事件或东西的数量。
+不过，看会Probability的公式，在提到Sample Space时，前面写了"total number"就是指**总体的数量**。所以Sample Space必须包括每件事件或东西的数量。
 <br><br>
 因此，答案是**B**。
 <br><br>
@@ -59,7 +59,7 @@ Q2. What is the probability of getting a red coloured capsule toy from the gasha
 用回之前的formula：
 
 $$\begin{aligned}
-P(event) &= \frac{no.\\ of\\ (event)}{no.\\ of\\ (Sample Space)} \\\\
+P(event) &= \frac{no.\\ of\\ (event)}{total\\no.\\ in\\ (Sample Space)} \\\\
 P(Red)  &=\frac{no.\\ of\\ red\\ capsule\\ toy}{no.\\ of\\ gashapon\\ Sample\\ Space} \\\\
 &= \frac{2}{5}&
 \end{aligned}$$

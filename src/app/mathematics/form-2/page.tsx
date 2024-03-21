@@ -21,7 +21,8 @@ const Home = () => {
       <div className={styles.App}>
         <Layout >
           <div className={styles.lessonList}>
-            <span className={styles.lessonTag}>Form 2 Mathematics Lessons:</span>
+            <span className={styles.lessonTag}>Form 2 Mathematics Lessons:            <br></br>
+            </span>
             <p>            
               {postPreviews}
             </p>

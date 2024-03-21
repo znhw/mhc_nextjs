@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <GoogleAnalytics gaId="G-7SREZJMDLN" />
+      {/* <GoogleAnalytics gaId="G-7SREZJMDLN" /> */}
       <body className={inter.className}>{children}</body>
     </html>
     

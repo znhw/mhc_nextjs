@@ -83,6 +83,7 @@
   text-decoration: underline dotted #82b2e8;
   color: #82b2e8;
   font-size: 15px;
+  margin-bottom: 45px;
 }
 
 .markdown, .lessonList {
@@ -93,6 +94,7 @@
 }
 .lessonList p{
   width: fit-content;
+  margin-bottom: 20px;
 }
 
 .footer {
