@@ -27,6 +27,12 @@ export default function Home(props: any) {
         <div className={styles.lessonList}>
           <h2>最新加入的：</h2>    
           <br/>
+          <p>Form 4 -&gt; <a className={styles.underlined} href="/mathematics/form-4/probability-combined-dependent-events">Chapter 9.3: Probability of Combined Events - Dependent Events</a>       
+          </p> 
+          <p>Form 4 -&gt; <a className={styles.underlined} href="/mathematics/form-4/probability-combined-independent-mutually-exclusive-events">Chapter 9.2: Probability of Combined Events - Independent & Mutually Exclusive Events</a>       
+          </p> 
+          <p>Form 4 -&gt; <a className={styles.underlined} href="/mathematics/form-4/probability-combined-independent-non-mutually-exclusive-events">Chapter 9.1: Probability of Combined Events - Independent & Non-mutually Exclusive Events</a>       
+          </p> 
           <p>Form 2 -&gt; <a className={styles.underlined} href="/mathematics/form-2/complement-event-probability">Chapter 13.2: Complement of an Event in Probability</a>       
           </p> 
           <p>Form 2 -&gt; <a className={styles.underlined} href="/mathematics/form-2/simple-probability">Chapter 13.1: Simple Probability</a>       

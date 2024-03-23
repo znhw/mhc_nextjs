@@ -37,7 +37,7 @@ The gashapon machine has 5 capsule toys of different colours: 2 red, 2 blue, and
 这扭蛋机里有5个不同颜色的扭蛋玩具，2个红的，2个蓝的，和1个黄色的。
 <br><br>
 
-Q1. Which of the following represents the sample space，S， of the gashapon machine?
+1. Which of the following represents the sample space，S， of the gashapon machine?
 <br>
 以下哪个代表扭蛋机的sample space， S？
 
@@ -50,7 +50,8 @@ $$B. S = \\{ red, red, blue, blue, yellow \\}$$
 <br><br>
 因此，答案是**B**。
 <br><br>
-Q2. What is the probability of getting a red coloured capsule toy from the gashapon machine?
+
+2. What is the probability of getting a red coloured capsule toy from the gashapon machine?
 <br>
 从扭蛋机中得到红色扭蛋的probability概率是多少？
 <br><br>

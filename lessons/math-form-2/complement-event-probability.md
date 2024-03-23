@@ -39,7 +39,7 @@ A'  代表 complement of event A <br><br><br>
     <img src="/images/poker-cards.jpg" alt="a few poker cards" class="img" />(Figure 1)
 </p>
 
-Q1. Figure 1 shows the cards that are in Alex's hands. In the event of Alex playing all of his spades ♠️ cards. Which of the following set represents the complement of the event in Alex's hands?
+1. Figure 1 shows the cards that are in Alex's hands. In the event of Alex playing all of his spades ♠️ cards. Which of the following set represents the complement of the event in Alex's hands?
 <br><br>
 A: {5 of spades, 4 of diamonds, 3 of clubs, 2 of hearts, ace of spades}<br>
 B: {4 of diamonds, 3 of clubs, 2 of hearts}<br>
@@ -49,7 +49,8 @@ C: {4 of diamonds, 3 of clubs, 2 of hears, ace of spades}<br>
 
 照图里看Alex手上有5张牌。题目说Alex打出所有的黑桃牌，那**剩下**在Alex手里的牌就不会有黑桃 ♠️ 了。所以，**答案是B**
 <br><br><br>
-Q2. There 52 playing cards in a deck, and there are 4 ace cards, 12 face cards, the rest is number cards. What is the probability of the complement of getting a face card?
+
+2. There 52 playing cards in a deck, and there are 4 ace cards, 12 face cards, the rest is number cards. What is the probability of the complement of getting a face card?
 
 $$\begin{aligned}
 Probability\\ (face\\ card) &=  \frac{no.\\ of\\ face\\ card}{total\\ no.\\ of\\ cards} \\\
