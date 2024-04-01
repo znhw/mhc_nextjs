@@ -4,11 +4,10 @@ import styles from "../app/page.module.css";
 
 const PostPreview = ( props: PostMetadata) => {
     return <div key={props.slug}>
-        <Link href={`form-1/${props.slug}`} className={styles.underlined}>
+        <Link href={`form-1/${props.slug}`} >
         <p className={styles.underlined}> 
         {props.title}
         </p>
-        {/* <p>{props.date}</p> */}
         </Link>     
     </div>
 }

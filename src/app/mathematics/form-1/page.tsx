@@ -21,15 +21,15 @@ const Home = () => {
       <div className={styles.App}>
         <Layout >
           <div className={styles.lessonList}>
-            <span className={styles.lessonTag}>Form 1 Mathematics Lessons:</span>
+            <span className={styles.lessonTag}>Form 1 Mathematics Lessons:            <br></br>
+            </span>
             <p>            
               {postPreviews}
             </p>
           </div>
-     
-        </Layout>
-      </div>
     
+        </Layout>
+    </div>
     );
 }
 
